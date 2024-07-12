@@ -12,16 +12,16 @@ import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 
 const ProfileUser = ({ user }) => {
-  const route=useRouter()
+  const route = useRouter();
   const decodedUser = decodeURIComponent(user);
   console.log(decodedUser);
   const clearLoaclStorageHandler = () => {
-localStorage.removeItem("bookingId");
-localStorage.removeItem("userId");
-localStorage.removeItem("username");
-toast.success("Signout Successful")
-     window.location.reload();
-
+    localStorage.removeItem("bookingId");
+    localStorage.removeItem("userId");
+    localStorage.removeItem("username");
+    localStorage.removeItem("userBookings");
+    toast.success("Signout Successful");
+    window.location.reload();
   };
   return (
     <Sheet>
