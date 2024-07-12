@@ -99,7 +99,7 @@ const CreateBooking = ({ id }) => {
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="p-6 bg-white rounded shadow-md max-w-2xl w-full">
         <h1 className="text-2xl font-bold mb-4 text-center">
-          Let's give some details for your booking
+          Let s give some details for your booking
         </h1>
         <Form {...form}>
           <form
