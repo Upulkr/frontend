@@ -56,7 +56,7 @@ const Register = () => {
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="w-1/2 p-6 bg-white rounded shadow-md max-w-2xl w-full">
         <h1 className="text-2xl font-bold mb-4 text-center">
-          Let's give some details for your registration
+          Let s give some details for your registration
         </h1>
         <Form {...form}>
           <form

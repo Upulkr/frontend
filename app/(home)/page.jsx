@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Button } from "../../components/ui/button";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-const page = () => {
+const Page = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const router = useRouter();
   const userId = localStorage.getItem("userId");
@@ -56,4 +56,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
