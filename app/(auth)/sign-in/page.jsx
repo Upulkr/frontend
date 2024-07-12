@@ -39,15 +39,15 @@ const SignIn = () => {
       );
 
       const { token, user } = response.data;
-      console.log(response.data.user.bookings)
-localStorage.setItem(
-  "userBookings",
-  JSON.stringify(response.data.user.bookings)
-);
+      console.log(response.data.user.bookings);
+      localStorage.setItem(
+        "userBookings",
+        JSON.stringify(response.data.user.bookings)
+      );
       localStorage.setItem("accessToken", token);
 
       localStorage.setItem("userId", user.id);
-  localStorage.setItem("username", user.name);
+      localStorage.setItem("username", user.name);
 
       toast.success("Successfully signed in");
 

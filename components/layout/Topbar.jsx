@@ -7,10 +7,8 @@ import { Menu, Search } from "lucide-react";
 import { CgProfile } from "react-icons/cg";
 import { usePathname, useRouter } from "next/navigation";
 import { Button } from "../../components/ui/button";
-import ProfileUser from './../Profile/Profile';
+import ProfileUser from "./../Profile/Profile";
 import {
-
-
   Sheet,
   SheetContent,
   SheetDescription,
@@ -32,7 +30,6 @@ const Topbar = () => {
   //     { label: "SignIn", path: "/Sign In" },
   //   ];
   const user = localStorage.getItem("username");
- 
 
   return (
     <div className="flex justify-between items-center p-4 bg-blue-800">

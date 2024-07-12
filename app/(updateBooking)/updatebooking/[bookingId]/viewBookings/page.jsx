@@ -17,7 +17,7 @@ import { useRouter } from "next/navigation";
 const ViewBookings = ({ params }) => {
 
   const [bookings, setBookings] = useState([]);
-  const user = localStorage.getItem("username");
+
   const userId = localStorage.getItem("userId");
   const bookingId = localStorage.getItem("bookingId");
 
