@@ -1,6 +1,6 @@
 # Hotel CRUD Application
 
-This is a simple Hotel CRUD (Create, Read, Update, Delete) application built with Next.js for the frontend, Express.js for the backend, and MySQL for the database. Tailwind CSS is used for styling, and XAMPP is utilized to manage the MySQL database. The `.env` file contains the database URL for connecting to the MySQL database through XAMPP.
+This is a simple Hotel CRUD (Create, Read, Update, Delete) application built with Next.js for the frontend, Express.js for the backend,Prisma for ORM and MySQL for the database. Tailwind CSS is used for styling, and XAMPP is utilized to manage the MySQL database. The `.env` file contains the database URL for connecting to the MySQL database through XAMPP.
 
 ## Features
 
@@ -16,6 +16,7 @@ This is a simple Hotel CRUD (Create, Read, Update, Delete) application built wit
 - **Frontend**: Next.js, Tailwind CSS
 - **Backend**: Express.js
 - **Database**: MySQL (via XAMPP)
+- **Prisma**: ORM
 - **Environment Variables**: `.env` file for database connection
 
 ## Getting Started
